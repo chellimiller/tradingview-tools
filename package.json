@@ -1,8 +1,10 @@
 {
-  "name": "tradingview-tools",
-  "packageManager": "yarn@3.1.1",
+  "name": "root",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ]
+  "scripts": {
+    "lerna": "lerna"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
 }
