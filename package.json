@@ -1,6 +1,8 @@
 {
-  "name": "root",
+  "name": "tradingview-tools",
+  "packageManager": "yarn@3.1.1",
   "private": true,
-  "scripts": {},
-  "devDependencies": {}
+  "workspaces": [
+    "packages/*"
+  ]
 }
