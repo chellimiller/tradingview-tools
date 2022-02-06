@@ -5,7 +5,7 @@
   "main": "build/index.js",
   "scripts": {
     "build": "tsc",
-    "lint": "prettier",
+    "lint": "prettier --write src",
     "test": "jest",
     "watch": "tsc -w"
   },
@@ -34,6 +34,7 @@
     "jest": "^27.5.0",
     "prettier": "^2.5.1",
     "ts-jest": "^27.1.3",
+    "type-fest": "^2.11.1",
     "typescript": "^4.5.5"
   },
   "dependencies": {
