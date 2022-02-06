@@ -1,0 +1,97 @@
+{
+  "compilerOptions": {
+    /***************** Language and Environment *****************/
+
+    /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "target": "es5",
+    /* Specify a set of bundled library declaration files that describe the target runtime environment. */
+    "lib": [
+      "es6",
+      "dom",
+      "es2016",
+      "es2017"
+    ],
+    /* Specify what JSX code is generated. */
+    "jsx": "react",
+
+    /***************** Modules *****************/
+    /* Specify what module code is generated. */
+    "module": "esnext",
+    /* Specify how TypeScript looks up a file from a given module specifier. */
+    "moduleResolution": "node",
+    /* Specify a set of entries that re-map imports to additional lookup locations. */
+    "paths": {},
+    /* Specify type package names to be included without being referenced in a source file. */
+    "types": [],
+    /* Enable importing .json files */
+    "resolveJsonModule": true,
+
+    /* JavaScript Support */
+    /* Allow JavaScript files to be a part of your program. Use the `checkJS` option to get errors from these files. */
+    "allowJs": true,
+    /* Enable error reporting in type-checked JavaScript files. */
+    "checkJs": true,
+    /* Specify the maximum folder depth used for checking JavaScript files from `node_modules`. Only applicable with `allowJs`. */
+    "maxNodeModuleJsDepth": 1,
+
+    /***************** Emit *****************/
+
+    /* Generate .d.ts files from TypeScript and JavaScript files in your project. */
+    "declaration": true,
+    /* Specify an output folder for all emitted files. */
+    "outDir": "./dist",
+    /* Disable emitting declarations that have `@internal` in their JSDoc comments. */
+    "stripInternal": true,
+    /* Disable emitting files if any type checking errors are reported. */
+    "noEmitOnError": true,
+
+    /***************** Interop Constraints *****************/
+    /* Ensure that each file can be safely transpiled without relying on other imports. */
+    "isolatedModules": true,
+    /* Allow 'import x from y' when a module doesn't have a default export. */
+    "allowSyntheticDefaultImports": true,
+    /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility. */
+    "esModuleInterop": true,
+    /* Ensure that casing is correct in imports. */
+    "forceConsistentCasingInFileNames": true,
+
+    /***************** Type Checking *****************/
+
+    /* Enable all strict type-checking options. */
+    "strict": true,
+    /* Enable error reporting when a local variables aren't read. */
+    "noUnusedLocals": true,
+    /* Raise an error when a function parameter isn't read */
+    "noUnusedParameters": true,
+    /* Enable error reporting for codepaths that do not explicitly return in a function. */
+    "noImplicitReturns": true,
+    /* Enable error reporting for fallthrough cases in switch statements. */
+    "noFallthroughCasesInSwitch": true,
+    /* Include 'undefined' in index signature results */
+    "noUncheckedIndexedAccess": true,
+    /* Ensure overriding members in derived classes are marked with an override modifier. */
+    "noImplicitOverride": true,
+    /* Enforces using indexed accessors for keys declared using an indexed type */
+    "noPropertyAccessFromIndexSignature": true,
+    /* Disable error reporting for unused labels. */
+    "allowUnusedLabels": false,
+    /* Disable error reporting for unreachable code. */
+    "allowUnreachableCode": false,
+
+    /***************** Completeness *****************/
+    /* Skip type checking .d.ts files that are included with TypeScript. */
+    "skipDefaultLibCheck": true,
+    /* Skip type checking all .d.ts files. */
+    "skipLibCheck": true,
+  },
+  "include": [
+    "src",
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    // "**/*.test.*",
+    // "**/__mocks__/*",
+    // "**/__tests__/*",
+  ],
+}
