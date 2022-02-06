@@ -39,7 +39,7 @@
     /* Generate .d.ts files from TypeScript and JavaScript files in your project. */
     "declaration": true,
     /* Specify an output folder for all emitted files. */
-    "outDir": "./dist",
+    "outDir": "./build",
     /* Disable emitting declarations that have `@internal` in their JSDoc comments. */
     "stripInternal": true,
     /* Disable emitting files if any type checking errors are reported. */
@@ -89,6 +89,7 @@
   ],
   "exclude": [
     "node_modules",
+    "build",
     "dist",
     // "**/*.test.*",
     // "**/__mocks__/*",

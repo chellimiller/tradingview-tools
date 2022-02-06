@@ -2,9 +2,12 @@
   "name": "lightweight-charts-react",
   "version": "0.1.0",
   "description": "Tradingview's lightweight-charts for React",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
-    "test": "jest"
+    "build": "tsc",
+    "lint": "prettier",
+    "test": "jest",
+    "watch": "tsc -w"
   },
   "repository": {
     "type": "git",
